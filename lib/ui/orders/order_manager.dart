@@ -5,23 +5,7 @@ import '../../models/cart_item.dart';
 import '../../models/order_item.dart';
 
 class OrdersManager with ChangeNotifier {
-  final List<OrderItem> _orders = [
-    // OrderItem(
-    //   id: 'o1',
-    //   amount: 59.98,
-    //   products: [
-    //     CartItem(
-    //       id: 'c1',
-    //       name: 'Trà sữa Truyền Thống',
-    //       imageUrl:
-    //           'https://chinmilktea.vn/public/upload/images/hinhsanpham/tra-sua-chocolate-cao-cap-43961616125427.JPG',
-    //       price: 29.99,
-    //       quantity: 2,
-    //     ),
-    //   ],
-    //   dateTime: DateTime.now(),
-    // )
-  ];
+  final List<OrderItem> _orders = [];
 
   int get orderCount {
     return _orders.length;

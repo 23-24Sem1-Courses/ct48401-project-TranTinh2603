@@ -68,7 +68,6 @@ class _OrderItemCardState extends State<OrderItemCard> {
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
                                   ),
-                                  // textAlign: TextAlign.left,
                                 ),
                               ),
                               const SizedBox(height: 10),
@@ -86,26 +85,8 @@ class _OrderItemCardState extends State<OrderItemCard> {
                         ],
                       ),
                       const SizedBox(height: 10)
-
-                      // Row(
-                      //   children: [
-                      //     SizedBox(
-                      //       child: Text(
-                      //         '${prod.quantity}x ${prod.price}đ',
-                      //         style: const TextStyle(
-                      //           fontSize: 18,
-                      //           color: Colors.grey,
-                      //         ),
-                      //         textAlign: TextAlign.left,
-                      //       ),
-                      //     ),
-                      //   ],
-                      // )
                     ],
                   ),
-                  // const Column(
-                  //   children: [SizedBox(width: 90)],
-                  // ),
                 ],
               ),
             )

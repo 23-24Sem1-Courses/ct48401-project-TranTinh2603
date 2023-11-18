@@ -118,7 +118,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                     ),
                   );
                 },
-                child: const Text('Add to cart'),
+                child: const Text('Thêm vào giỏ'),
               ),
             ),
           ],

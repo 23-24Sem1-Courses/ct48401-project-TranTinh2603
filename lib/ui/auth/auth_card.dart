@@ -37,13 +37,11 @@ class _AuthCardState extends State<AuthCard> {
 
     try {
       if (_authMode == AuthMode.login) {
-        // Log user in
         await context.read<AuthManager>().login(
               _authData['email']!,
               _authData['password']!,
             );
       } else {
-        // Sign user up
         await context.read<AuthManager>().signup(
               _authData['email']!,
               _authData['password']!,
